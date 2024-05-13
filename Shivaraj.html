@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Form</title>
+</head>
+<body>
+<h2> Employee Form </h2>
+  <label for="name">Name:</label>
+  <input type="text" name="name"><br><br>
+  <label for="employee_id">Employee ID:</label>
+  <input type="text"  name="employee_id"><br><br>
+  <label for="employee_type">Employee type:</label>
+  <select id="employee_type" name="employee_type"><br><br>
+    <option value="permanent">Permanent</option>
+    <option value="contract">Contract</option>
+    <option value="intern">Intern</option><br><br>
+<select>
+  <br><br>
+  <label for="dob">DOB:</label>
+  <input type="date" name="dob"><br><br>
+  <label for="gender">Gender:</label>
+  <input type="radio"  name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio"  name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio"  name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <label for="contact_number">Contact Number:</label>
+  <input type="text"  name="contact_number"><br><br>
+  
+  <label for="email_id">Email ID:</label>
+  <input type="email" name="email_id"><br><br>
+  
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address" size="10" rows="2" cols="50"></textarea><br><br>
+  
+  <label for="employee_photo">Employee Photo:</label><br>
+  <input type="file" name="employee_photo"><br><br>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Clear">
+  <button type="button" onclick="cancelForm()">Cancel</button>
+</form>
+</body>
+</html>
